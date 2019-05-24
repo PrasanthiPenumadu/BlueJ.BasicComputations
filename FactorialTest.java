@@ -19,10 +19,10 @@ public class FactorialTest {
     @Test
     public void factorialOfTest(){
         //:Given
-        BigInteger expected = new BigInteger("24");
+        BigInteger expected = new BigInteger("120");
 
         //:When
-        BigInteger actual = factorial.factorialOf(4);
+        BigInteger actual = factorial.factorialOf(5);
 
         //:Then
         Assert.assertEquals("Values should be equal", expected, actual);
